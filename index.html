@@ -1,0 +1,58 @@
+<!Doctype html>
+<html lang="en">
+<head>
+  <title>Survey Form</title>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main>
+ <header>
+   <h1 id="title">Free Code Camp - Feedback Form </h1>
+  <em> <p id="description">We hope you like our services and help us improve by giving feedback.</p></em>
+ </header>
+  <form id="survey-form">
+      <fieldset class="first">
+        <legend>Contact Information</legend>
+          <label  class="firstlabel" id="name-label" for="name">Name<input id="name" type="text" placeholder="Enter your name" required/></label>
+          <label  class="firstlabel" id="email-label" for="email">Email<input id="email" type="email" placeholder="Enter your email" required /></label>
+          <label  class="firstlabel" id="number-label" for="number">Age (optional)<input id="number" type="number" min="13" max="120" placeholder="Age" /></label>
+       </fieldset>
+    <fieldset  class="second">   
+      <legend>Service Information</legend>
+      <p>Would you recommend freeCodeCamp to a friend?</p>
+        <label><input name="thechosenone" type="radio" value="valuesareright" checked />Definitely</label>
+        <label><input name="thechosenone" type="radio" value="valuesareright" />Maybe</label>
+        <label><input name="thechosenone" type="radio" value="valuesareright" />Not sure</label>
+    </fieldset>
+    <div id="survey-form">
+    <label>What is your favorite feature of freeCodeCamp?
+          <select id ="dropdown">
+            <option value="">Select an option</option>
+            <option value="1">Challenges</option>
+            <option value="2">Projects</option>
+            <option value="3">Community</option>
+            <option value="4">Open Source</option>
+          </select>
+        </label>
+    </div>
+    <fieldset  class="third">
+      <legend>Service Feedback</legend>
+        <p>What would you like to see improved? (Check all that apply)</p>
+        <label><input id="name" type="checkbox" value="Front-end Projects" />Better Interaction</label>
+        <label><input id="name" type="checkbox" value="Back-end Projects" />New Contact Fields</label>
+        <label><input id="name" type="checkbox" value="Challenges" />Donation issues.</label>
+        <label><input id="name" type="checkbox" value="Open Source Community" />Open Source Community</label>
+        <label><input id="name" type="checkbox" value="Gitter help rooms" />Gitter help rooms</label>
+        <label><input id="name" type="checkbox" value="Additional Courses" />Additional Courses</label>
+        <label><input id="name" type="checkbox" value="Others" />Others</label>
+    </fieldset>
+      <div class="lastdiv">
+        <label>Any comments or suggestions?</label>
+        <textarea placeholder="Enter your comment here..." rows="10"></textarea>
+      <input type="submit" id="submit" value="Submit" />
+      </div>
+  </form>
+  </main>
+</body>
+</html>

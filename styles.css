@@ -1,0 +1,95 @@
+*{
+     margin: 0;
+    padding: 0;
+    text-overflow: none;
+    box-sizing: border-box;
+}
+body{
+    background-color: #0d1117;
+    color: white;
+    font-family: sans-serif;
+    width: 100%;
+}
+
+main{
+    background-color: #242930;
+    min-width: 400px;
+    max-width: 650px;
+    width: 100%;
+    margin: 100px auto;
+    padding: 30px 50px;
+}
+
+header{
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+}
+label, p{
+    display: block;
+    font-size: 20px;
+    padding:10px 0px;
+}
+input{
+    margin:0 10px 0 0 ;
+
+}
+fieldset{
+    padding:20px;
+    margin: 10px;
+}
+
+#title{
+    font-size: 32px;
+    margin: 0 0 10px 0;
+}
+#description{
+    font-size: 16px;
+    color: rgb(218, 218, 218);
+     padding: 0;
+}
+.first input{
+    display: block;
+    border: none;
+    border-radius: 3px;
+    padding: 10px;
+    height: 20px;
+    width: 96%;
+    margin-top: 10px;
+}
+select{
+    display: block;
+    border: none;
+    border-radius: 3px;
+    padding: 10px;
+    width: 96%;
+    margin-top: 10px;
+}
+textarea{
+    display: block;
+    border: none;
+    border-radius: 3px;
+    padding: 10px;
+    width: 100%;
+     margin-top: 10px;
+}
+input:active, input:focus ,select , textarea{
+    outline: none;
+  box-shadow: none;
+  border: none;
+}
+legend{
+    font-size: 26px;
+}
+
+.lastdiv {
+    margin: 10px;
+}
+#submit{
+    background-color: #45a049;
+    color: white;
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 10px;
+    height: 40px;
+}
